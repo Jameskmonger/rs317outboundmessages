@@ -30,3 +30,4 @@ export { SetSkillLevelMessage } from "./messages/set-skill-level";
 export { ShowChatboxInterfaceMessage } from "./messages/show-chatbox-interface";
 export { ShowWelcomeScreenMessage } from "./messages/show-welcome-screen";
 export { ShowPlayerHeadOnInterfaceMessage } from "./messages/show-player-head-on-interface";
+export { SetIgnoreListMessage } from "./messages/set-ignore-list";
