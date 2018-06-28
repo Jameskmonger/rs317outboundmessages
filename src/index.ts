@@ -33,3 +33,4 @@ export { ShowPlayerHeadOnInterfaceMessage } from "./messages/show-player-head-on
 export { SetIgnoreListMessage } from "./messages/set-ignore-list";
 export { SendMessageMessage } from "./messages/send-message";
 export { SetWeightMessage } from "./messages/set-weight";
+export { SetFriendsListStatusMessage } from "./messages/set-friends-list-status";
