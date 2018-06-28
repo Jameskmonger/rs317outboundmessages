@@ -22,5 +22,11 @@
     "317",
     "typescript",
     "game"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "@types/node": "^10.5.0"
+  }
 }
