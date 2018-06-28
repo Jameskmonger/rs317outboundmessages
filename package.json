@@ -1,0 +1,26 @@
+{
+  "name": "rs317-outbound-messages",
+  "version": "1.0.0",
+  "description": "Server to client message schemas for RuneScape revision 317",
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameskmonger/rs317-outbound-messages.git"
+  },
+  "author": "James Monger <jameskmonger@hotmail.co.uk> (http://jamesmonger.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameskmonger/base37-string/issues"
+  },
+  "homepage": "https://github.com/jameskmonger/base37-string#readme",
+  "keywords": [
+    "runescape",
+    "317",
+    "typescript",
+    "game"
+  ]
+}
