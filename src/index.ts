@@ -32,3 +32,4 @@ export { ShowWelcomeScreenMessage } from "./messages/show-welcome-screen";
 export { ShowPlayerHeadOnInterfaceMessage } from "./messages/show-player-head-on-interface";
 export { SetIgnoreListMessage } from "./messages/set-ignore-list";
 export { SendMessageMessage } from "./messages/send-message";
+export { SetWeightMessage } from "./messages/set-weight";
