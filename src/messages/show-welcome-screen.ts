@@ -1,4 +1,4 @@
-export interface DisplayWelcomeScreenMessage {
+export interface ShowWelcomeScreenMessage {
     daysSinceLastLogin: number;
     daysSinceLastRecoveryChange: number;
     unreadMessageCount: number;
