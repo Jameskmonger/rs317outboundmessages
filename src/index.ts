@@ -28,3 +28,4 @@ export { SetInterfaceTextMessage } from "./messages/set-interface-text";
 export { SetSkillLevelMessage } from "./messages/set-skill-level";
 export { DisplayChatboxInterfaceMessage } from "./messages/display-chatbox-interface";
 export { DisplayWelcomeScreenMessage } from "./messages/display-welcome-screen";
+export { ShowPlayerHeadOnInterfaceMessage } from "./messages/show-player-head-on-interface";
