@@ -34,3 +34,4 @@ export { SetIgnoreListMessage } from "./messages/set-ignore-list";
 export { SendMessageMessage } from "./messages/send-message";
 export { SetWeightMessage } from "./messages/set-weight";
 export { SetFriendsListStatusMessage } from "./messages/set-friends-list-status";
+export { HideAllInterfacesMessage } from "./messages/hide-all-interfaces";
