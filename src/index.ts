@@ -1,6 +1,7 @@
 export { AnimationResetMessage } from "./messages/animation-reset";
 export { FlashSidebarIconMessage } from "./messages/flash-sidebar-icon";
 export { ShowInputAmountDialogMessage } from "./messages/show-input-amount-dialog";
+export { ShowInputAmountNameMessage } from "./messages/show-input-name-dialog";
 export { ShakeCameraMessage } from "./messages/shake-camera";
 export { SetClientSettingMessage } from "./messages/set-client-setting";
 export { AddFriendMessage } from "./messages/add-friend";
