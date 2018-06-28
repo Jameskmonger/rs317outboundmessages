@@ -27,3 +27,4 @@ export { SetInterfaceColorMessage } from "./messages/set-interface-color";
 export { SetInterfaceTextMessage } from "./messages/set-interface-text";
 export { SetSkillLevelMessage } from "./messages/set-skill-level";
 export { DisplayChatboxInterfaceMessage } from "./messages/display-chatbox-interface";
+export { DisplayWelcomeScreenMessage } from "./messages/display-welcome-screen";
