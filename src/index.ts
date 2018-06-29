@@ -6,6 +6,7 @@ export { RotateInterfaceModelMessage } from "./messages/interface/rotate-interfa
 export { SetEnergyMessage } from "./messages/interface/set-energy";
 export { SetInterfaceColorMessage } from "./messages/interface/set-interface-color";
 export { SetInterfaceHiddenUntilHovered } from "./messages/interface/set-interface-hidden-until-hovered";
+export { SetInterfaceItemCollectionMessage } from "./messages/interface/set-interface-item-collection";
 export { SetInterfaceItemMessage } from "./messages/interface/set-interface-item";
 export { SetInterfaceModel } from "./messages/interface/set-interface-model";
 export { SetInterfaceOffsetMessage } from "./messages/interface/set-interface-offset";
@@ -68,6 +69,7 @@ export { AnimationResetMessage } from "./messages/animation-reset";
 export { AddPlayerOptionMessage } from "./messages/add-player-option";
 export { InitializePlayerMessage } from "./messages/initialize-player";
 export { LogoutMessage } from "./messages/logout";
+export { ProcessGroupPacketMessage } from "./messages/process-group-packet";
 export { SetLocalPositionMessage } from "./messages/set-local-position";
 export { TransformPlayerToObjectMessage } from "./messages/transform-player-to-object";
 export { UpdatePlayersMessage } from "./messages/update-players";
