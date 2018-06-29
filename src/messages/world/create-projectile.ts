@@ -1,7 +1,8 @@
 export interface CreateProjectileMessage {
-    positionOffset: number; // x and y packed into one number
-    offsetX: number;
-    offsetY: number;
+    offsetXA: number;
+    offsetYA: number;
+    offsetXB: number;
+    offsetYB: number;
     target: number;
     graphicId: number;
     heightStart: number;

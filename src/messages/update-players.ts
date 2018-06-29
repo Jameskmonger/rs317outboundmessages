@@ -54,10 +54,10 @@ interface ForceTextUpdateBlock {
 }
 
 interface ChatUpdateBlock {
-    colorAndEffects: number;
+    color: number;
+    effect: number;
     rights: number;
-    messageLength: number;
-    messageContents: number[]; // byte array
+    message: string;
 }
 
 interface InteractingEntityUpdateBlock {

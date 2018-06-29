@@ -1,5 +1,5 @@
 export interface SendPrivateMessageMessage {
     messageId: number;
-    encodedRecipientName: [ number, number ]; // high and low bits of a long
+    recipientName: string;
     senderRights: number; // admin/mod level
 }
