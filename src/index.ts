@@ -43,3 +43,4 @@ export { SendPrivateMessageMessage } from "./messages/send-private-message";
 export { AnimateInterfaceMessage } from "./messages/animate-interface";
 export { SetChatSettingsMessage } from "./messages/set-chat-settings";
 export { ShowWalkableInterfaceMessage } from "./messages/show-walkable-interface";
+export { ShowChatboxDialogMessage } from "./messages/show-chatbox-dialog";
