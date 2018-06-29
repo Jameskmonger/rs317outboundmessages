@@ -7,6 +7,8 @@ import { CreateGroundItemMessage } from "./world/create-ground-item";
 import { RemoveObjectMessage } from "./world/remove-object";
 import { CreateProjectileMessage } from "./world/create-projectile";
 import { CreateGraphicMessage } from "./world/create-graphic";
+import { CreateAnimatedObjectMessage } from "./world/create-animated-object";
+import { RemoveGroundItemsExcludeSingleMessage } from "./world/remove-ground-items-exclude-single";
 
 // opcode 60
 
@@ -19,8 +21,9 @@ export interface ProcessGroupPacketMessage {
         data: UpdateGroundItemCountMessage
             | PlaySoundAtLocationMessage
             | CreateGroundItemExcludePlayerMessage
-            | /* 156 and 160 */
-            TransformPlayerToObjectMessage
+            | RemoveGroundItemsExcludeSingleMessage
+            | CreateAnimatedObjectMessage
+            | TransformPlayerToObjectMessage
             | CreateObjectMessage
             | CreateGraphicMessage
             | CreateGroundItemMessage

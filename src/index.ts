@@ -31,6 +31,7 @@ export { ShowWalkableInterfaceMessage } from "./messages/interface/show-walkable
 export { ShowWelcomeScreenMessage } from "./messages/interface/show-welcome-screen";
 
 export { ConstructMapRegionMessage } from "./messages/world/construct-map-region";
+export { CreateAnimatedObjectMessage } from "./messages/world/create-animated-object";
 export { CreateGraphicMessage } from "./messages/world/create-graphic";
 export { CreateGroundItemExcludePlayerMessage } from "./messages/world/create-ground-item-exclude-player";
 export { CreateGroundItemMessage } from "./messages/world/create-ground-item";
