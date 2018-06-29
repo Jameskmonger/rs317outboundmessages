@@ -1,5 +1,5 @@
 export interface CreateProjectileMessage {
-    positionOffset: number;
+    positionOffset: number; // x and y packed into one number
     offsetX: number;
     offsetY: number;
     target: number;
