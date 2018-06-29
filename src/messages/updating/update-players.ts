@@ -1,33 +1,6 @@
-interface WalkMovementUpdate {
-    direction: number;
-    furtherUpdateRequired: boolean;
-}
-
-interface RunMovementUpdate {
-    lastDirection: number;
-    currentDirection: number;
-    furtherUpdateRequired: boolean;
-}
-
-interface PlaceMovementUpdate {
-    x: number;
-    y: number;
-    plane: number;
-    clearWaypointQueue: boolean;
-    furtherUpdateRequired: boolean;
-}
-
-interface MovementUpdate<TData> {
-    movementUpdateType: number;
-    movementUpdateData: TData;
-}
-
-interface PlayerListData {
-    observed: boolean;
-    teleported: boolean;
-    x: number;
-    y: number;
-}
+import { AnimationUpdateBlock, DamageUpdateBlock, GraphicsUpdateBlock, InteractingEntityUpdateBlock, ForceTextUpdateBlock, FacingCoordinateUpdateBlock } from "./blocks";
+import { EntityListData } from "./entity-list-data";
+import { MovementUpdate, RunMovementUpdate, WalkMovementUpdate, PlaceMovementUpdate } from "./movement";
 
 interface AnimatedWalkUpdateBlock {
     startX: number;
@@ -39,29 +12,11 @@ interface AnimatedWalkUpdateBlock {
     direction: number;
 }
 
-interface GraphicsUpdateBlock {
-    graphicId: number;
-    delay: number;
-}
-
-interface AnimationUpdateBlock {
-    animationId: number;
-    delay: number;
-}
-
-interface ForceTextUpdateBlock {
-    message: string;
-}
-
 interface ChatUpdateBlock {
     color: number;
     effect: number;
     rights: number;
     message: string;
-}
-
-interface InteractingEntityUpdateBlock {
-    entityId: number;
 }
 
 interface AppearanceUpdateBlock {
@@ -92,19 +47,6 @@ interface AppearanceUpdateBlock {
     skill: number;
 }
 
-interface FacingCoordinateUpdateBlock {
-    x: number;
-    y: number;
-}
-
-interface DamageUpdateBlock {
-    damageAmount: number;
-    damageType: number;
-
-    currentHealth: number;
-    maxHealth: number;
-}
-
 export interface UpdatePlayersMessage {
     local: {
         updateRequired: boolean;
@@ -122,20 +64,22 @@ export interface UpdatePlayersMessage {
 
     list: {
         id: number;
-        data?: PlayerListData;
+        data?: EntityListData;
     }[];
 
     block: {
         type: number;
 
-        data: (AnimatedWalkUpdateBlock
-            | GraphicsUpdateBlock
+        data: (
+            AnimatedWalkUpdateBlock
             | AnimationUpdateBlock
-            | ForceTextUpdateBlock
-            | ChatUpdateBlock
-            | InteractingEntityUpdateBlock
             | AppearanceUpdateBlock
+            | ChatUpdateBlock
+            | DamageUpdateBlock
             | FacingCoordinateUpdateBlock
-            | DamageUpdateBlock)[];
+            | ForceTextUpdateBlock
+            | GraphicsUpdateBlock
+            | InteractingEntityUpdateBlock
+        )[];
     }[];
 }

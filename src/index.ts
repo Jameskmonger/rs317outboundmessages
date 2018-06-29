@@ -1,3 +1,22 @@
+export { PlaySongMessage } from "./messages/audio/play-song";
+export { PlaySoundAtLocationMessage } from "./messages/audio/play-sound-at-location";
+export { PlaySoundMessage } from "./messages/audio/play-sound";
+export { QueueSongMessage } from "./messages/audio/queue-song";
+
+export { ResetCameraMessage } from "./messages/camera/reset-camera";
+export { ShakeCameraMessage } from "./messages/camera/shake-camera";
+export { SpinCameraMessage } from "./messages/camera/spin-camera";
+
+export { AddFriendMessage } from "./messages/comms/add-friend";
+export { SendMessageMessage } from "./messages/comms/send-message";
+export { SendPrivateMessageMessage } from "./messages/comms/send-private-message";
+export { SetFriendsListStatusMessage } from "./messages/comms/set-friends-list-status";
+export { SetIgnoreListMessage } from "./messages/comms/set-ignore-list";
+
+export { ShowNpcHintIconMessage } from "./messages/hint-icon/show-npc-hint-icon";
+export { ShowPlayerHintIconMessage } from "./messages/hint-icon/show-player-hint-icon";
+export { ShowPositionHintIconMessage } from "./messages/hint-icon/show-position-hint-icon";
+
 export { AnimateInterfaceMessage } from "./messages/interface/animate-interface";
 export { ClearInterfaceInventoryMessage } from "./messages/interface/clear-interface-inventory";
 export { FlashSidebarIconMessage } from "./messages/interface/flash-sidebar-icon";
@@ -30,6 +49,13 @@ export { ShowTabInterfaceMessage } from "./messages/interface/show-tab-interface
 export { ShowWalkableInterfaceMessage } from "./messages/interface/show-walkable-interface";
 export { ShowWelcomeScreenMessage } from "./messages/interface/show-welcome-screen";
 
+export { ResetClientSettingsMessage } from "./messages/settings/reset-client-settings";
+export { SetChatSettingsMessage } from "./messages/settings/set-chat-settings";
+export { SetClientSettingMessage } from "./messages/settings/set-client-setting";
+
+export { UpdateNpcsMessage } from "./messages/updating/update-npcs";
+export { UpdatePlayersMessage } from "./messages/updating/update-players";
+
 export { ConstructMapRegionMessage } from "./messages/world/construct-map-region";
 export { CreateAnimatedObjectMessage } from "./messages/world/create-animated-object";
 export { CreateGraphicMessage } from "./messages/world/create-graphic";
@@ -45,29 +71,6 @@ export { ResetDestinationMessage } from "./messages/world/reset-destination";
 export { SetMinimapStateMessage } from "./messages/world/set-minimap-state";
 export { UpdateGroundItemCountMessage } from "./messages/world/update-ground-item-count";
 
-export { PlaySongMessage } from "./messages/audio/play-song";
-export { PlaySoundAtLocationMessage } from "./messages/audio/play-sound-at-location";
-export { PlaySoundMessage } from "./messages/audio/play-sound";
-export { QueueSongMessage } from "./messages/audio/queue-song";
-
-export { AddFriendMessage } from "./messages/comms/add-friend";
-export { SendMessageMessage } from "./messages/comms/send-message";
-export { SendPrivateMessageMessage } from "./messages/comms/send-private-message";
-export { SetFriendsListStatusMessage } from "./messages/comms/set-friends-list-status";
-export { SetIgnoreListMessage } from "./messages/comms/set-ignore-list";
-
-export { ResetClientSettingsMessage } from "./messages/settings/reset-client-settings";
-export { SetChatSettingsMessage } from "./messages/settings/set-chat-settings";
-export { SetClientSettingMessage } from "./messages/settings/set-client-setting";
-
-export { ResetCameraMessage } from "./messages/camera/reset-camera";
-export { ShakeCameraMessage } from "./messages/camera/shake-camera";
-export { SpinCameraMessage } from "./messages/camera/spin-camera";
-
-export { ShowNpcHintIconMessage } from "./messages/hint-icon/show-npc-hint-icon";
-export { ShowPlayerHintIconMessage } from "./messages/hint-icon/show-player-hint-icon";
-export { ShowPositionHintIconMessage } from "./messages/hint-icon/show-position-hint-icon";
-
 export { AnimationResetMessage } from "./messages/animation-reset";
 export { AddPlayerOptionMessage } from "./messages/add-player-option";
 export { InitializePlayerMessage } from "./messages/initialize-player";
@@ -75,4 +78,3 @@ export { LogoutMessage } from "./messages/logout";
 export { ProcessGroupPacketMessage } from "./messages/process-group-packet";
 export { SetLocalPositionMessage } from "./messages/set-local-position";
 export { TransformPlayerToObjectMessage } from "./messages/transform-player-to-object";
-export { UpdatePlayersMessage } from "./messages/update-players";
