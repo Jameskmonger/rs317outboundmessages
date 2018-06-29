@@ -30,6 +30,7 @@ export { ShowWelcomeScreenMessage } from "./messages/interface/show-welcome-scre
 
 export { ConstructMapRegionMessage } from "./messages/world/construct-map-region";
 export { CreateGraphicMessage } from "./messages/world/create-graphic";
+export { CreateGroundItemExcludePlayerMessage } from "./messages/world/create-ground-item-exclude-player";
 export { CreateGroundItemMessage } from "./messages/world/create-ground-item";
 export { CreateObjectMessage } from "./messages/world/create-object";
 export { CreateProjectileMessage } from "./messages/world/create-projectile";
