@@ -7,6 +7,7 @@ export { SetEnergyMessage } from "./messages/interface/set-energy";
 export { SetInterfaceColorMessage } from "./messages/interface/set-interface-color";
 export { SetInterfaceHiddenUntilHovered } from "./messages/interface/set-interface-hidden-until-hovered";
 export { SetInterfaceItemMessage } from "./messages/interface/set-interface-item";
+export { SetInterfaceModel } from "./messages/interface/set-interface-model";
 export { SetInterfaceOffsetMessage } from "./messages/interface/set-interface-offset";
 export { SetInterfaceScrollPositionMessage } from "./messages/interface/set-interface-scroll-position";
 export { SetInterfaceTextMessage } from "./messages/interface/set-interface-text";
@@ -28,14 +29,19 @@ export { ShowWalkableInterfaceMessage } from "./messages/interface/show-walkable
 export { ShowWelcomeScreenMessage } from "./messages/interface/show-welcome-screen";
 
 export { ConstructMapRegionMessage } from "./messages/world/construct-map-region";
+export { CreateGraphicMessage } from "./messages/world/create-graphic";
+export { CreateGroundItemMessage } from "./messages/world/create-ground-item";
 export { CreateObjectMessage } from "./messages/world/create-object";
 export { CreateProjectileMessage } from "./messages/world/create-projectile";
 export { LoadMapRegionMessage } from "./messages/world/load-map-region";
+export { RemoveGroundItemMessage } from "./messages/world/remove-ground-item";
+export { RemoveObjectMessage } from "./messages/world/remove-object";
 export { ResetDestinationMessage } from "./messages/world/reset-destination";
 export { SetMinimapStateMessage } from "./messages/world/set-minimap-state";
-export { RemoveObjectMessage } from "./messages/world/remove-object";
+export { UpdateGroundItemCountMessage } from "./messages/world/update-ground-item-count";
 
 export { PlaySongMessage } from "./messages/audio/play-song";
+export { PlaySoundAtLocationMessage } from "./messages/audio/play-sound-at-location";
 export { PlaySoundMessage } from "./messages/audio/play-sound";
 export { QueueSongMessage } from "./messages/audio/queue-song";
 
@@ -60,4 +66,5 @@ export { AnimationResetMessage } from "./messages/animation-reset";
 export { AddPlayerOptionMessage } from "./messages/add-player-option";
 export { InitializePlayerMessage } from "./messages/initialize-player";
 export { LogoutMessage } from "./messages/logout";
+export { SetLocalPositionMessage } from "./messages/set-local-position";
 export { UpdatePlayersMessage } from "./messages/update-players";
