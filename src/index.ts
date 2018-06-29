@@ -42,3 +42,4 @@ export { PlaySoundMessage } from "./messages/play-sound";
 export { SendPrivateMessageMessage } from "./messages/send-private-message";
 export { AnimateInterfaceMessage } from "./messages/animate-interface";
 export { SetChatSettingsMessage } from "./messages/set-chat-settings";
+export { ShowWalkableInterfaceMessage } from "./messages/show-walkable-interface";
