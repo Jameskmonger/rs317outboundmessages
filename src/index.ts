@@ -39,3 +39,4 @@ export { CreateProjectileMessage } from "./messages/create-projectile";
 export { CreateObjectMessage } from "./messages/create-object";
 export { SetInterfaceHiddenUntilHovered } from "./messages/set-interface-hidden-until-hovered";
 export { PlaySoundMessage } from "./messages/play-sound";
+export { SendPrivateMessageMessage } from "./messages/send-private-message";
