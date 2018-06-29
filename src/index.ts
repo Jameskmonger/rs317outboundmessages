@@ -50,6 +50,10 @@ export { SetClientSettingMessage } from "./messages/settings/set-client-setting"
 export { ResetCameraMessage } from "./messages/camera/reset-camera";
 export { ShakeCameraMessage } from "./messages/camera/shake-camera";
 
+export { ShowNpcHintIconMessage } from "./messages/hint-icon/show-npc-hint-icon";
+export { ShowPlayerHintIconMessage } from "./messages/hint-icon/show-player-hint-icon";
+export { ShowPositionHintIconMessage } from "./messages/hint-icon/show-position-hint-icon";
+
 export { AnimationResetMessage } from "./messages/animation-reset";
 export { AddPlayerOptionMessage } from "./messages/add-player-option";
 export { InitializePlayerMessage } from "./messages/initialize-player";
