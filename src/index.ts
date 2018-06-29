@@ -38,6 +38,7 @@ export { CreateObjectMessage } from "./messages/world/create-object";
 export { CreateProjectileMessage } from "./messages/world/create-projectile";
 export { LoadMapRegionMessage } from "./messages/world/load-map-region";
 export { RemoveGroundItemMessage } from "./messages/world/remove-ground-item";
+export { RemoveGroundItemsExcludeSingleMessage } from "./messages/world/remove-ground-items-exclude-single";
 export { RemoveObjectMessage } from "./messages/world/remove-object";
 export { ResetDestinationMessage } from "./messages/world/reset-destination";
 export { SetMinimapStateMessage } from "./messages/world/set-minimap-state";
