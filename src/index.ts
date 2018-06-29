@@ -67,4 +67,5 @@ export { AddPlayerOptionMessage } from "./messages/add-player-option";
 export { InitializePlayerMessage } from "./messages/initialize-player";
 export { LogoutMessage } from "./messages/logout";
 export { SetLocalPositionMessage } from "./messages/set-local-position";
+export { TransformPlayerToObjectMessage } from "./messages/transform-player-to-object";
 export { UpdatePlayersMessage } from "./messages/update-players";
