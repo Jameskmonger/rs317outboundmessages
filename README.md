@@ -2,6 +2,28 @@
 
 Schema for server -> client messages in RuneScape revision 317
 
+## Installation
+
+```
+npm install rs317-outbound-messages
+```
+
+## Usage
+
+```typescript
+import { SpinCameraMessage } from "rs317-outbound-messages";
+
+const message: SpinCameraMessage = {
+    x: 200,
+    y: 150,
+    height: 18,
+    speed: 6,
+    angle: 32
+};
+
+player.send(message);
+```
+
 ## Regarding encoding
 
 The schema here is not a 1:1 match to the data received by the client but rather the actual data the server is sending.
