@@ -46,3 +46,4 @@ export { ShowWalkableInterfaceMessage } from "./messages/show-walkable-interface
 export { ShowChatboxDialogMessage } from "./messages/show-chatbox-dialog";
 export { RotateInterfaceModelMessage } from "./messages/rotate-interface-model";
 export { SetInterfaceItemMessage } from "./messages/set-interface-item";
+export { ShowInventoryOverlayMessage } from "./messages/show-inventory-overlay";
