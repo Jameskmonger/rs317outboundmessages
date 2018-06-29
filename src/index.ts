@@ -27,6 +27,7 @@ export { ShowTabInterfaceMessage } from "./messages/interface/show-tab-interface
 export { ShowWalkableInterfaceMessage } from "./messages/interface/show-walkable-interface";
 export { ShowWelcomeScreenMessage } from "./messages/interface/show-welcome-screen";
 
+export { ConstructMapRegionMessage } from "./messages/world/construct-map-region";
 export { CreateObjectMessage } from "./messages/world/create-object";
 export { CreateProjectileMessage } from "./messages/world/create-projectile";
 export { LoadMapRegionMessage } from "./messages/world/load-map-region";
