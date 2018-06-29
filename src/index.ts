@@ -32,6 +32,7 @@ export { CreateProjectileMessage } from "./messages/world/create-projectile";
 export { LoadMapRegionMessage } from "./messages/world/load-map-region";
 export { ResetDestinationMessage } from "./messages/world/reset-destination";
 export { SetMinimapStateMessage } from "./messages/world/set-minimap-state";
+export { RemoveObjectMessage } from "./messages/world/remove-object";
 
 export { PlaySongMessage } from "./messages/audio/play-song";
 export { PlaySoundMessage } from "./messages/audio/play-sound";
