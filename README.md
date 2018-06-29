@@ -1,17 +1,17 @@
-# rs317-outbound-messages
+# rs317outboundmessages
 
 Schema for server -> client messages in RuneScape revision 317
 
 ## Installation
 
 ```
-npm install rs317-outbound-messages
+npm install rs317outboundmessages
 ```
 
 ## Usage
 
 ```typescript
-import { SpinCameraMessage } from "rs317-outbound-messages";
+import { SpinCameraMessage } from "rs317outboundmessages";
 
 const message: SpinCameraMessage = {
     x: 200,
