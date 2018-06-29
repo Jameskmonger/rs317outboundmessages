@@ -59,3 +59,4 @@ export { AnimationResetMessage } from "./messages/animation-reset";
 export { AddPlayerOptionMessage } from "./messages/add-player-option";
 export { InitializePlayerMessage } from "./messages/initialize-player";
 export { LogoutMessage } from "./messages/logout";
+export { UpdatePlayersMessage } from "./messages/update-players";
