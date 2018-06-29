@@ -128,7 +128,7 @@ export interface UpdatePlayersMessage {
     block: {
         type: number;
 
-        data: AnimatedWalkUpdateBlock
+        data: (AnimatedWalkUpdateBlock
             | GraphicsUpdateBlock
             | AnimationUpdateBlock
             | ForceTextUpdateBlock
@@ -136,6 +136,6 @@ export interface UpdatePlayersMessage {
             | InteractingEntityUpdateBlock
             | AppearanceUpdateBlock
             | FacingCoordinateUpdateBlock
-            | DamageUpdateBlock;
+            | DamageUpdateBlock)[];
     }[];
 }
