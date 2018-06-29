@@ -2,11 +2,15 @@
   "name": "rs317-outbound-messages",
   "version": "1.0.0",
   "description": "Server to client message schemas for RuneScape revision 317",
-  "main": "index.js",
+  "main": "",
+  "typings": "build/index.d.ts",
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "tsc"
   },
+  "files": [
+    "build/**/*.d.ts"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jameskmonger/rs317-outbound-messages.git"
