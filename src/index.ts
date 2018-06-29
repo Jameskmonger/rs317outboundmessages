@@ -21,7 +21,8 @@ export { ShowChatboxInterfaceMessage } from "./messages/interface/show-chatbox-i
 export { ShowInputAmountDialogMessage } from "./messages/interface/show-input-amount-dialog";
 export { ShowInputAmountNameMessage } from "./messages/interface/show-input-name-dialog";
 export { ShowInterfaceMessage } from "./messages/interface/show-interface";
-export { ShowInventoryOverlayMessage } from "./messages/interface/show-inventory-overlay";
+export { ShowInventoryInterfaceMessage } from "./messages/interface/show-inventory-interface";
+export { ShowInventoryOverlayInterfaceMessage } from "./messages/interface/show-inventory-overlay-interface";
 export { ShowNpcHeadOnInterfaceMessage } from "./messages/interface/show-npc-head-on-interface";
 export { ShowPlayerHeadOnInterfaceMessage } from "./messages/interface/show-player-head-on-interface";
 export { ShowSidebarInterfaceMessage } from "./messages/interface/show-sidebar-interface";
