@@ -57,6 +57,7 @@ export { SetClientSettingMessage } from "./messages/settings/set-client-setting"
 
 export { ResetCameraMessage } from "./messages/camera/reset-camera";
 export { ShakeCameraMessage } from "./messages/camera/shake-camera";
+export { SpinCameraMessage } from "./messages/camera/spin-camera";
 
 export { ShowNpcHintIconMessage } from "./messages/hint-icon/show-npc-hint-icon";
 export { ShowPlayerHintIconMessage } from "./messages/hint-icon/show-player-hint-icon";
