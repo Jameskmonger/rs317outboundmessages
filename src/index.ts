@@ -37,3 +37,4 @@ export { SetFriendsListStatusMessage } from "./messages/set-friends-list-status"
 export { HideAllInterfacesMessage } from "./messages/hide-all-interfaces";
 export { CreateProjectileMessage } from "./messages/create-projectile";
 export { CreateObjectMessage } from "./messages/create-object";
+export { SetInterfaceHiddenUntilHovered } from "./messages/set-interface-hidden-until-hovered";
